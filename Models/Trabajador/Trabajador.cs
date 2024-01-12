@@ -139,6 +139,7 @@ namespace MetodologiaDeDesarrolloGrupo3App.Models.Trabajador
         [JsonProperty("Remuneracion_Minima")]
         public int Remuneracion_Minima { get; set; }
 
+        
         public decimal IESS_PATRONAL
         {
             get
@@ -150,7 +151,7 @@ namespace MetodologiaDeDesarrolloGrupo3App.Models.Trabajador
                 catch (Exception e)
                 {
 
-                    Console.WriteLine(e);
+                    /*Console.WriteLine(e);*/
                     return 0;
                 }
 
@@ -166,7 +167,7 @@ namespace MetodologiaDeDesarrolloGrupo3App.Models.Trabajador
                 }
                 catch (Exception e)
                 {
-                    Console.WriteLine(e);
+                    /*Console.WriteLine(e);*/
                     return 0;
                 }
             }
@@ -182,7 +183,7 @@ namespace MetodologiaDeDesarrolloGrupo3App.Models.Trabajador
                 }
                 catch (Exception e)
                 {
-                    Console.WriteLine(e);
+                    /*Console.WriteLine(e);*/
                     return 0;
                 }
                 
