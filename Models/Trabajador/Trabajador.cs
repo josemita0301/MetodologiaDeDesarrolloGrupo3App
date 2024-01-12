@@ -147,8 +147,10 @@ namespace MetodologiaDeDesarrolloGrupo3App.Models.Trabajador
                 {
                     return decimal.Round(this.Remuneracion_Minima * ((decimal)(0.1115)), 2);
                 }
-                catch (Exception)
+                catch (Exception e)
                 {
+
+                    Console.WriteLine(e);
                     return 0;
                 }
 
@@ -162,8 +164,9 @@ namespace MetodologiaDeDesarrolloGrupo3App.Models.Trabajador
                 { 
                     return decimal.Round(this.Remuneracion_Minima * ((decimal)(0.0945)), 2);
                 }
-                catch (Exception)
+                catch (Exception e)
                 {
+                    Console.WriteLine(e);
                     return 0;
                 }
             }
@@ -177,8 +180,9 @@ namespace MetodologiaDeDesarrolloGrupo3App.Models.Trabajador
                 {
                     return decimal.Round((Remuneracion_Minima + IESS_PATRONAL + IESS_PERSONAL), 2);
                 }
-                catch (Exception)
+                catch (Exception e)
                 {
+                    Console.WriteLine(e);
                     return 0;
                 }
                 
