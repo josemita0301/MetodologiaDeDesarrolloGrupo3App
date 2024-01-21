@@ -11,7 +11,6 @@ namespace MetodologiaDeDesarrolloGrupo3App.Testing
         [SetUp]
         public void Setup()
         {
-            // Inicialización que se ejecuta antes de cada prueba
             _calculadora = new Calculadora();
         }
 
